@@ -1,0 +1,12 @@
+camel:
+  component:
+    servlet:
+      mapping:
+        contextPath: /camelrest/*
+
+server:
+    port: 9090
+
+discount:
+  newDiscountPeriod: 20000
+  listDiscountPeriod: 60000
